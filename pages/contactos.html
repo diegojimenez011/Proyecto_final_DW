@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;600;700&display=swap" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <link rel="icon" href="../assets/img/logo.png" type="image/x-icon">
+
+        <title>Contactos</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="cabecera" class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: rgb(213, 255, 134)!important;">
+                            
+                <div class="container-fluid">
+                    <img src="../assets/img/logo.png" alt="logo sitio" width="72"height="76">
+                    <a id="top" class="navbar-brand" href="#" style="font-size: xx-large;">ArSal.Tour</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="../index.html" style="font-size: x-large !important;">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./nosotros.html" style="font-size: x-large !important;">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./destinos.html" style="font-size: x-large !important;">Destinos</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#" style="font-size: x-large !important;">Contactos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./promociones.html" style="font-size: x-large !important;">Promociones</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h2 style="font-size: 70px;">Conectate con nosotros</h2>
+            <form class="contacto">
+                <legend>Informacion de contacto</legend> 
+                <br>
+                <label for='nombre_apellido'>Nombre:</label>
+                <input type='text' name='nombre' placeholder='Nombre' /><br> <!--recepcion del nombre del cliente-->
+                <label for='email'>eMail:</label>
+                <input type='email' name='email' placeholder='nombre@ejemplo.com'/><br> <!--recepcion del email del cliente-->
+                <label for='Destion de interes'>Destino de interes:</label>
+                <select name='especialidad'>
+                    <option value='CACHI'>CACHI</option>
+                    <option value='CAFAYATE'>CAFAYATE</option>
+                    <option value='SALTA'>SALTA</option>
+                    <option value='IRUYA'>IRUYA</option>
+                    <option value='...'>...</option>
+                    <option value='Otro'>Otro</option>
+                </select><br>        
+                <label for='Descripcion'>Descripcion:</label>
+                <textarea cols='80vh' rows='10' placeholder='Mensaje'></textarea>
+                <div>Quiero recibir todas las actualizaciones de la Biblioteca</div>
+                <input type='checkbox' name='acepta' value='1'/>
+                <input type='submit' value='Enviar'/>
+                <input type='reset' value='Reestablecer'/>
+            </form>
+
+        </main>
+
+        <footer> <!--Pie de pagina-->
+
+            <h2>¡Seguinos en nuestras redes!</h2><br>
+    
+            <!--inicio de redes-->
+            <section class="buttons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </section>
+            <!--fin de redes-->
+    
+            <div class="fot">
+
+                <a href="#" class="arriba"><I>Inicio</I></a>
+
+            </div>
+            
+            <p><hr><br><br>Copyright © 2023 - Todos los derechos reservados <br><br></hr></p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+       
+    </body>
+</html>
